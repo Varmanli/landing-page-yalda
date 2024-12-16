@@ -568,14 +568,14 @@ header svg {
     gap: 40px;
   }
   .offer-text h3 {
-    font-size: 28px;
+    font-size: 23px;
     font-weight: bold;
   }
   #lottie-container {
     height: 100px;
   }
   .offer-text p {
-    font-size: 13px;
+    font-size: 10px;
   }
   .offer-text {
     margin: 20px 0;
@@ -659,21 +659,21 @@ header svg {
   .course__image-glow {
     position: absolute;
     left: 0%;
-    right: -40%;
-    top: -50%;
-    width: 400px;
+    right: -130%;
+    top: -100%;
+    width: 300px;
     height: 700px;
   }
   .course__image img {
-    width: 460px;
+    width: 350px;
     margin: -130px 0;
-    margin-right: -120px;
+    margin-right: -140px;
   }
   .course__title {
-    font-size: 2.9rem;
+    font-size: 1.5rem;
   }
   .course__button {
-    font-size: 7px;
+    font-size:7px;
   }
 }
 @media (max-width: 1200px) {
