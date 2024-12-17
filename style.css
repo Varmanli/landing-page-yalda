@@ -406,9 +406,9 @@ header svg {
 }
 
 .course__image img {
-  width: 650px;
-  margin: -200px 0;
-  margin-right: -50px;
+  margin: -100px 0;
+  margin-right: -70px;
+  width: 600px;
   position: relative;
   z-index: 2;
 }
@@ -416,7 +416,7 @@ header svg {
 .course__image-glow {
   position: absolute;
   left: -60%;
-  top: -30%;
+  bottom: -30%;
   width: 700px;
   height: 700px;
   background: radial-gradient(
@@ -562,21 +562,7 @@ header svg {
   background-color: #e8edff;
   color: #335fb0;
 }
-@media (max-width: 500px) {
-  .course__image-glow {
-    position: absolute;
-    left: 0%;
-    right: -80%;
-    top: -100%;
-    width: 300px;
-    height: 700px;
-  }
-  .course__image img {
-    width: 350px;
-    margin: -110px 0;
-    margin-right: -80px;
-  }
-}
+
 @media (max-width: 700px) {
   .timer {
     gap: 40px;
@@ -677,14 +663,13 @@ header svg {
     position: absolute;
     left: 0%;
     right: -90%;
-    top: -100%;
+    top: -250;
     width: 300px;
     height: 700px;
   }
   .course__image img {
     width: 350px;
-    margin: -110px 0;
-    margin-right: -90px;
+    margin-right: -120px;
   }
   .course__title {
     font-size: 1.5rem;
