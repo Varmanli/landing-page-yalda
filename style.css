@@ -562,7 +562,21 @@ header svg {
   background-color: #e8edff;
   color: #335fb0;
 }
-
+@media (max-width: 500px) {
+  .course__image-glow {
+    position: absolute;
+    left: 0%;
+    right: -80%;
+    top: -100%;
+    width: 300px;
+    height: 700px;
+  }
+  .course__image img {
+    width: 350px;
+    margin: -110px 0;
+    margin-right: -80px;
+  }
+}
 @media (max-width: 700px) {
   .timer {
     gap: 40px;
@@ -643,6 +657,9 @@ header svg {
   .button-up {
     bottom: -7%;
   }
+}
+
+@media (max-width: 900px) {
   .course__content-wrapper {
     flex-direction: column;
   }
@@ -673,17 +690,17 @@ header svg {
     font-size: 1.5rem;
   }
   .course__buttons {
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-bottom: 20px;
   }
   .course__buttons__row {
-    display: contents; 
+    display: contents;
   }
   .course__button {
-    font-size: 9px; 
-    padding: 8px 10px; 
+    font-size: 9px;
+    padding: 8px 10px;
   }
 }
 @media (max-width: 1200px) {
