@@ -564,6 +564,9 @@ header svg {
 }
 
 @media (max-width: 700px) {
+  .hero {
+    background-image: url("./img/1.webp");
+  }
   .timer {
     gap: 40px;
   }
