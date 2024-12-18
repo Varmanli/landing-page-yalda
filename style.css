@@ -186,7 +186,7 @@ header svg {
   gap: 30px;
   padding: 10px 30px;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
 }
 .cart:hover {
   background: linear-gradient(180deg, #272727 -7.54%, #b84a55 81.61%);
