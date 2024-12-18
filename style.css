@@ -123,12 +123,11 @@ header svg {
   justify-content: center;
 }
 .cart {
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-items: center;
-  flex: 1 1 calc(33.333% - 30px);
+  flex: 0 1 calc(25% - 30px); /* حداکثر 4 کارت در یک ردیف */
   border-radius: 12px;
   background-color: rgba(34, 34, 34, 1);
   transition: transform 0.3s ease, background 0.3s ease;
@@ -186,8 +185,8 @@ header svg {
   flex-wrap: wrap;
   gap: 30px;
   padding: 10px 30px;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 .cart:hover {
   background: linear-gradient(180deg, #272727 -7.54%, #b84a55 81.61%);
@@ -505,7 +504,7 @@ header svg {
   padding: 8px 10px;
   border: none;
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 14.5px;
   font-weight: 700;
   text-align: center;
   transition: background 0.3s;
@@ -702,5 +701,8 @@ header svg {
 @media (max-width: 1300px) {
   .course {
     width: auto;
+  }
+  .cart {
+    flex: 1 1 calc(33.333% - 30px); /* 3 کارت در یک ردیف */
   }
 }
