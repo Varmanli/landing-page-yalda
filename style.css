@@ -405,7 +405,6 @@ header svg {
   max-width: 33%;
 }
 
-
 .course__image img {
   margin: -100px 0;
   margin-right: -70px;
@@ -418,8 +417,9 @@ header svg {
   position: absolute;
   left: -60%;
   bottom: -30%;
-  width: 700px;
-  height: 700px;
+  width: 20rem;
+  height: 20rem;
+  transform: translateX(0%);
   background: radial-gradient(
     44.29% 44.29% at 50% 50%,
     #e74c3c 0%,
@@ -433,7 +433,7 @@ header svg {
 .course__content {
   flex: 2;
   text-align: right;
-  z-index: 20;
+  z-index: 10;
 }
 
 .course__title {
@@ -576,7 +576,7 @@ header svg {
     font-weight: bold;
   }
   #lottie-container {
-    height: 100px;
+    width: 100px;
   }
   .offer-text p {
     font-size: 10px;
