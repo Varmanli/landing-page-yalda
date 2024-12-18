@@ -449,6 +449,7 @@ header svg {
 }
 #favorite-animation {
   width: 100px;
+  height: 100px;
 }
 
 .course__subtitle {
