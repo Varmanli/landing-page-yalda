@@ -699,3 +699,8 @@ header svg {
     width: auto;
   }
 }
+@media (max-width: 1300px) {
+  .course {
+    width: auto;
+  }
+}
