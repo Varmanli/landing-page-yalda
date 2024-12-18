@@ -391,6 +391,7 @@ header svg {
   width: 1300px;
   margin: 0 auto;
   margin-top: 30px;
+  margin-left: 100px;
 }
 
 .course__content-wrapper {
@@ -579,6 +580,7 @@ header svg {
   .cart-container {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .cart {
     font-size: 14px;
