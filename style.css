@@ -687,8 +687,8 @@ header svg {
     display: contents;
   }
   .course__button {
-    font-size: 9px;
-    padding: 8px 10px;
+    font-size: 11px;
+    padding: 7px 4px;
   }
 }
 @media (max-width: 1200px) {
