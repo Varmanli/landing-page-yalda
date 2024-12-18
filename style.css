@@ -123,11 +123,11 @@ header svg {
   justify-content: center;
 }
 .cart {
-  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 0 1 calc(25% - 30px); /* حداکثر 4 کارت در یک ردیف */
+  justify-items: center;
+  flex: 0 1 calc(25% - 30px);
   border-radius: 12px;
   background-color: rgba(34, 34, 34, 1);
   transition: transform 0.3s ease, background 0.3s ease;
@@ -179,14 +179,13 @@ header svg {
   margin-top: 5px;
   cursor: pointer;
 }
-
 .cart-container {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding: 10px 30px;
-  justify-content: space-around;
-  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
 }
 .cart:hover {
   background: linear-gradient(180deg, #272727 -7.54%, #b84a55 81.61%);
@@ -391,6 +390,7 @@ header svg {
   padding: 20px;
   width: 1300px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .course__content-wrapper {
@@ -407,27 +407,10 @@ header svg {
 
 .course__image img {
   margin: -100px 0;
-  margin-right: -70px;
-  width: 600px;
+  margin-right: -100px;
+  width: 700px;
   position: relative;
   z-index: 2;
-}
-
-.course__image-glow {
-  position: absolute;
-  left: -60%;
-  bottom: -30%;
-  width: 20rem;
-  height: 20rem;
-  transform: translateX(0%);
-  background: radial-gradient(
-    44.29% 44.29% at 50% 50%,
-    #e74c3c 0%,
-    #000000 100%
-  );
-  filter: blur(50px);
-  border-radius: 50%;
-  z-index: -1;
 }
 
 .course__content {
@@ -564,6 +547,17 @@ header svg {
   background-color: #e8edff;
   color: #335fb0;
 }
+@media (max-width: 1300px) {
+  .cart {
+    flex: 0 1 calc(33.333% - 30px);
+  }
+  .cart-container {
+    padding-right: 20px;
+  }
+  .course {
+    width: auto;
+  }
+}
 
 @media (max-width: 700px) {
   .hero {
@@ -688,21 +682,5 @@ header svg {
   .course__button {
     font-size: 11px;
     padding: 7px 4px;
-  }
-}
-@media (max-width: 1200px) {
-  .cart {
-    max-width: 350px;
-  }
-  .course {
-    width: auto;
-  }
-}
-@media (max-width: 1300px) {
-  .course {
-    width: auto;
-  }
-  .cart {
-    flex: 1 1 calc(33.333% - 30px); /* 3 کارت در یک ردیف */
   }
 }
