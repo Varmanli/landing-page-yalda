@@ -391,6 +391,8 @@ header svg {
 .course {
   margin: 50px;
   padding: 20px;
+  width: 1300px;
+  margin: 0 auto;
 }
 
 .course__content-wrapper {
