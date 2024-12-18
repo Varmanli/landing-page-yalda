@@ -115,7 +115,6 @@ header svg {
 }
 #lottie-container {
   width: 150px;
-  height: 200px;
 }
 .offer-text div {
   display: flex;
@@ -583,9 +582,6 @@ header svg {
   }
   .offer-text p {
     font-size: 10px;
-  }
-  .offer-text {
-    margin: 20px 0;
   }
   .cart-container {
     flex-direction: column;
