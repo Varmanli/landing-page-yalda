@@ -699,4 +699,7 @@ header svg {
   .cart {
     max-width: 350px;
   }
+  .course {
+    width: auto;
+  }
 }
